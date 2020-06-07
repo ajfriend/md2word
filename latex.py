@@ -1,4 +1,4 @@
-#!../env/bin/python
+#!env/bin/python
 "NOTE: make sure you set the python interpreter correctly"
 
 """
