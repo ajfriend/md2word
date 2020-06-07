@@ -5,10 +5,10 @@ init:
 
 
 pdf:
-	pandoc --filter ./latex.py -s example.md -o example.docx --reference-doc=reference.docx
+	pandoc --filter ./latex.py -s example.md -o example.docx --reference-doc=resources/template.docx
 
 clean:
-	rm -rf latex_images example.docx
+	rm -rf .latex_images *.docx
 
 purge: clean
 	-@rm -rf env

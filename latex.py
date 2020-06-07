@@ -5,7 +5,7 @@
 Pandoc filter to process raw latex math environments into images.
 Assumes that pdflatex is in the path, and that the standalone
 package is available.  Also assumes that ImageMagick's convert
-is in the path. Images are put in the `latex_images` directory.
+is in the path. Images are put in the `.latex_images` directory.
 
 Notes
 -----
@@ -80,7 +80,7 @@ def write_file(fname, src):
         f.write(src)
 
 
-def get_filename(src, opts, dirname='latex_images'):
+def get_filename(src, opts, dirname='.latex_images'):
     """
     Hash the full source and options to get a filename,
     in case either the formatting or options changes.
