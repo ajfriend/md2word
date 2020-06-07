@@ -11,7 +11,17 @@ Notes
 -----
 have to print to stderr, because everything normally printed will get
 piped to the next command.
+
+apparently, also have to make this script executable:
+
+```bash
+chmod u+x latex.py
+```
 """
+
+import sys
+
+sys.stderr.write(sys.version)
 
 import os
 import sys

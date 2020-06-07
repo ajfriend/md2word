@@ -22,3 +22,13 @@ or
 - i wonder if the `--filter` form passes the `format` through... it does!
 
 ![Screen Shot 2020-02-27 at 1.28.29 PM](/Users/ajfriend/Desktop/Screen Shot 2020-02-27 at 1.28.29 PM.png)
+
+
+gotta make sure the filter script is executable
+```bash
+chmod u+x latex.py
+```
+
+## todo
+
+figure out how to do this from python, without having to set up the `env` and everything.
